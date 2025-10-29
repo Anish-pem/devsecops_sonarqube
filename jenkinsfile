@@ -8,7 +8,7 @@ pipeline {
     }
 
     environment {
-        DOCKERHUB_USER = 'anishacloudlab'
+        DOCKERHUB_USER = 'anishcloudlab'
         IMAGE_NAME = 'jenkins-docker-lab'
         SONARQUBE = 'SonarCloud'
         SONAR_TOKEN = credentials('anish-sonarcloud-token')
